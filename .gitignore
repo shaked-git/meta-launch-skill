@@ -1,0 +1,8 @@
+# secrets and account ids stay on your machine
+.env
+accounts.json
+# run output: plans, ledgers, previews, audit log
+out/
+audit/
+__pycache__/
+.DS_Store

@@ -1,0 +1,34 @@
+{
+  "account": "my-business",
+  "campaign": {
+    "name": "לידים · נובמבר · דוגמה",
+    "objective": "OUTCOME_LEADS",
+    "daily_budget_ils": 80,
+    "spend_cap_ils": 500,
+    "bid_strategy": "LOWEST_COST_WITHOUT_CAP",
+    "special_ad_categories": []
+  },
+  "adsets": [
+    {
+      "name": "ישראל · 25+ · Advantage+",
+      "optimization_goal": "OFFSITE_CONVERSIONS",
+      "conversion_event": "LEAD",
+      "targeting": {"countries": ["IL"], "age_min": 25, "advantage_audience": true},
+      "placements": "advantage",
+      "ads": [
+        {
+          "name": "באנר 1 · פיד",
+          "creative": {
+            "type": "image",
+            "image": "assets/banner-4x5.png",
+            "message": "הטקסט הראשי של המודעה.\nשורה שנייה.",
+            "headline": "כותרת קצרה >>",
+            "link": "https://example.co.il/landing",
+            "cta": "LEARN_MORE",
+            "utm": "utm_source=facebook&utm_medium=paid&utm_campaign={{campaign.name}}&utm_content={{ad.name}}"
+          }
+        }
+      ]
+    }
+  ]
+}

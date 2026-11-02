@@ -1,0 +1,60 @@
+{
+  "account": "my-business",
+  "campaign": {
+    "name": "תנועה · ABO · דוגמה",
+    "objective": "OUTCOME_TRAFFIC",
+    "budget_mode": "ABO",
+    "spend_cap_ils": 600,
+    "special_ad_categories": []
+  },
+  "adsets": [
+    {
+      "name": "וידאו · רדיוס 15 ק\"מ",
+      "optimization_goal": "LANDING_PAGE_VIEWS",
+      "daily_budget_ils": 40,
+      "targeting": {
+        "countries": ["IL"],
+        "custom_locations": [{"latitude": 32.0853, "longitude": 34.7818, "radius": 15, "distance_unit": "kilometer"}],
+        "age_min": 30,
+        "age_max": 60,
+        "advantage_audience": false
+      },
+      "ads": [
+        {
+          "name": "סרטון 9:16",
+          "creative": {
+            "type": "video",
+            "video": "assets/clip-9x16.mp4",
+            "thumbnail": "assets/clip-thumb.jpg",
+            "message": "טקסט ראשי לסרטון.",
+            "headline": "כותרת",
+            "link": "https://example.co.il/landing",
+            "cta": "LEARN_MORE"
+          }
+        }
+      ]
+    },
+    {
+      "name": "קרוסלה · ישראל",
+      "optimization_goal": "LANDING_PAGE_VIEWS",
+      "daily_budget_ils": 40,
+      "targeting": {"countries": ["IL"], "age_min": 21, "advantage_audience": true},
+      "ads": [
+        {
+          "name": "קרוסלה 3 כרטיסים",
+          "creative": {
+            "type": "carousel",
+            "message": "טקסט ראשי לקרוסלה.",
+            "link": "https://example.co.il/",
+            "cta": "SHOP_NOW",
+            "cards": [
+              {"image": "assets/card-1.png", "headline": "כרטיס 1", "link": "https://example.co.il/a"},
+              {"image": "assets/card-2.png", "headline": "כרטיס 2", "link": "https://example.co.il/b"},
+              {"image": "assets/card-3.png", "headline": "כרטיס 3", "link": "https://example.co.il/c"}
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

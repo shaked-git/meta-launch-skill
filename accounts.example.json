@@ -1,0 +1,19 @@
+{
+  "my-business": {
+    "ad_account_id": "1234567890123456",
+    "business_id": "1234567890123456",
+    "page_id": "123456789012345",
+    "instagram_user_id": "17841400000000000",
+    "pixel_id": "1234567890123456",
+    "conversion_domain": "example.co.il",
+    "currency": "ILS",
+    "default_link": "https://example.co.il/",
+    "max_daily_budget_ils": 300,
+    "min_spend_cap_ils": 500,
+    "regional": {
+      "categories": ["VOLUNTARY_VERIFICATION"],
+      "identity_business_id": "1234567890123456"
+    },
+    "write_allowed": false
+  }
+}
